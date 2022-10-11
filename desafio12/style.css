@@ -26,6 +26,7 @@ header{
     font-family: var(--fonte-Sriracha);
     font-size: 5em;
     font-weight: bolder;
+    min-width: 400px;
 }
 #Subtitulo{
 
@@ -35,21 +36,34 @@ header{
 }
 body{
     background-color: white;
-
+    
+}
+main{
+    max-width: 500px;
+    font-family: var(--fonte-Passion);
+    font-size: 2em;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
 article{
-    margin-top: 20px;
-    margin-left: 30px;
-    font-family: var(--fonte-Passion);
-    font-size: 2em;
-    font-weight: bold;
-    max-width: 300px;
+     background-color: rgba(0, 0, 0, 0.112);
+    color: var(--cor1);
+    
 }
 aside{
-    margin-top: 20px;
-    margin-left: 30px;
-    font-family: var(--fonte-Passion);
-    font-size: 2em;
-    font-weight: bold;
-    max-width: 300px;
+    background-color: var(--cor2);
+    min-width: 500px;
+    height: 400px;
+    
+   
+    
+    
+}
+#girasol{
+    background-image: url(imagens/background001.jpg);
+}
+#livro{
+    background-image: url(imagens/background002.jpg);
 }
