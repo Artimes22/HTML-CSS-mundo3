@@ -39,7 +39,9 @@ body{
     
 }
 main{
-    max-width: 500px;
+    
+}
+section{
     font-family: var(--fonte-Passion);
     font-size: 2em;
     font-weight: bold;
@@ -47,23 +49,19 @@ main{
     margin-top: 15px;
     margin-left: 30px;
 }
-article{
-     background-color: rgba(0, 0, 0, 0.112);
-    color: var(--cor1);
-    
-}
-aside{
-    background-color: var(--cor2);
-    min-width: 500px;
-    height: 400px;
-    
-   
-    
-    
-}
 #girasol{
+    background-color: rgba(0, 0, 0, 0.112);
     background-image: url(imagens/background001.jpg);
+    height: 450px;
+    width: 700px;
+    background-position: center center;
+    background-attachment: scroll;
 }
 #livro{
+    background-color: rgba(0, 0, 0, 0.112);
     background-image: url(imagens/background002.jpg);
+    height: 450px;
+    width: 700px;
+    background-position: center center;
+    background-attachment: scroll;
 }
